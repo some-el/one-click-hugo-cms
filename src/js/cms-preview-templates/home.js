@@ -23,7 +23,7 @@ export default class PostPreview extends React.Component {
           </div>
         </div>
 
-        <div className="bg-off-white pv4">
+        <div className="pv4">
           <div className="ph3 mw7 center">
             <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "intro", "heading"])}</h2>
             <p className="mb4 mw6">{entry.getIn(["data", "intro", "text"])}</p>
